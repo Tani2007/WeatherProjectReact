@@ -34,7 +34,6 @@ export function Data() {
               class="city_name"
               placeholder="search your city..."
             />
-            <button>Search</button>
           </form>
         </div>
 
