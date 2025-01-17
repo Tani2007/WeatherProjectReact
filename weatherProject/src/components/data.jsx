@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export function Data() {
   const [data, setData] = useState("");
-  const [search, setSearch] = useState("Mumbai");
+  const [search, setSearch] = useState("Ghaziabad");
   const [input, setinput] = useState();
   const URL = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=c5280f5618e80b5e8e2edde865a368ec`;
   const fetchApi = async (url) => {
